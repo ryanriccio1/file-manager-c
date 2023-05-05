@@ -1,0 +1,66 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+!MemoryManagerSimulator.GUI/glfw-libs/**/*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+!MemoryManagerSimulator.GUI/glfw-libs/**/*.dll
+
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+!MemoryManagerSimulator.GUI/resources/*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Custom
+.vscode/
+.vs/
+**/x64
+bin/
+build/
+test/googletest
+**/imgui.ini
+**/packages
